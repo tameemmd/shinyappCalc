@@ -45,10 +45,11 @@ shinyUI(fluidPage(
                  textOutput("text_amt") 
         ), 
         tabPanel("Documentation", 
-                 p(h4("Simple Interest Calculator:")), 
+                 p(h2("Simple Interest Calculator")), 
                  br(), 
-                 helpText("This application calculates simple interest 
-                              and total amount, i.e. principal plus interest."), 
+                 p(h4("Introduction")), 
+                 
+                 helpText("This is an RStudio shiny application developed as a course project for Coursera's Developing Data Products course in the Data Science Specialization track. The application developed is a simple interest calculator."), 
                  HTML("<u><b>Equation for calculation: </b></u> 
                          <br> <br> 
                          <b> A = P + I = P(1 + rt) ; R = r * 100 </b> 
